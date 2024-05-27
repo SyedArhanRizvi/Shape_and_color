@@ -1,0 +1,114 @@
+body{
+  background-color: #ffffff;
+  padding: 20px 50px 20px 60px;
+  border: 2px solid rgb(255, 255, 255);
+}
+#zero{
+  background: #3b7852;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+}
+#first{
+  background: #7f9029;
+  height: 70vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+}
+#second{
+  background: #8E6537;
+  height: 55vh;
+  width: 55vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+}
+#third{
+  background: #435578;
+  height:40vh ;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+}
+body:hover{
+  background: black;
+}
+#third:hover{
+  background: #752078;
+}
+#first:hover{
+  background: #6c0000;
+}
+#second:hover{
+  background: #429891;
+}
+#zero:hover{
+  background: #27b470;
+}
+.container{
+  height: 30vh;
+  width: 30vw;
+  border: 2px solid rgb(255, 255, 255);
+  /* box-shadow: 2px 1px 2px 2px whitesmoke; */
+  /* margin: 250px 240px 220px 500px; */
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #3a3a3a;
+}
+.color{
+  height: 200px;
+  width: 200px;
+  /* border: 2px solid red; */
+  border-radius: 50%;
+  background: #0C6440;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#but1{
+  height: 5vh;
+  width: 7vw;
+  background: rgb(84, 4, 84);
+  color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 10px;
+}
+#but1:hover{
+  color: rgb(0, 0, 0);
+  background:#437862;
+  border: 2px solid black;
+  box-shadow: none;
+}
+#but2{
+  height: 5vh;
+  width: 7vw;
+  background: rgb(113, 166, 137);
+  color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 10px;
+}
+#but2:hover{
+  color: rgb(0, 0, 0);
+  background:#435578;
+  border: 2px solid black;
+  box-shadow: none;
+}
